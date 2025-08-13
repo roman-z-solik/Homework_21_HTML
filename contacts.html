@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Интернет магазин</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style> .custom-horizontal-rule {border-top-color: white !important; }
+    .nav-link { color: white !important; } body, html {height: 100%; margin: 0;}
+    .flex-container {display: flex; align-items: flex-start; flex-direction: column; height: 90vh;}
+    .nav-pills {flex: 1;}
+    .nav-item:last-child {margin-top: auto;}
+    .dropdown-menu {bottom: 100%; left: 0; transform: translateY(-0.5rem);}
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="row mt-3">
+                <div class="col-1 fixed-top fixed-bottom">
+                    <nav class="navbar navbar-expand flex-column navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand">
+                                <img src="https://img.icons8.com/ios7/512/FFFFFF/bootstrap.png" alt="" width="30" height="30"
+                                     class="d-inline-block align-text-left">
+                                МЕНЮ
+                                <hr class="custom-horizontal-rule">
+                            </a>
+                        </div>
+                        <div class="flex-container">
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="orders.html">Заказы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="category.html">Категории</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="contacts.html">Контакты</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Пользователь
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <h2>Контакты</h2>
+                        <div class="container mt-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <form class="border rounded p-4">
+                                        <label class="form-label">Имя</label>
+                                        <input type="text" class="form-control">
+                                        <label>Почта</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">@</span>
+                                            <input class="form-control">
+                                        </div>
+                                            <label class="form-label">Сообщение</label>
+                                            <textarea class="form-control"></textarea>
+                                        <button type="submit" class="btn btn-primary m-3">Отправить</button>
+                                    </form>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Наши контакты</h2>
+                                    <p class="text-start mt-5">Свяжитесь с нами:
+                                        Вы можете задать нам вопрос или оставить отзыв, заполнив форму ниже:
+                                        [Форма обратной связи с полями для имени, email и сообщения]
+                                        Или свяжитесь с нами по следующим контактам:
+                                        * Телефон: +7 (XXX) XXX-XX-XX
+                                        * Электронная почта: [email protected]
+                                        * Адрес: [Город], [название улицы], д. [номер дома]
+                                        Свяжитесь с нами:
+                                        Вы можете задать нам вопрос или оставить отзыв, заполнив форму ниже:
+                                        [Форма обратной связи с полями для имени, email и сообщения]
+                                        Или свяжитесь с нами по следующим контактам:
+                                        * Телефон: +7 (XXX) XXX-XX-XX
+                                        * Электронная почта: [email protected]
+                                        * Адрес: [Город], [название улицы], д. [номер дома]
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
